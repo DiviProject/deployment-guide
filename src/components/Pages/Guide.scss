@@ -5,6 +5,10 @@ div.page-wrap.page-examples {
     height: auto;
     max-height: none;
 
+    @media (max-width: 640px) {
+        display: block;
+    }
+
     div.page-column {
         h2, h3 {
             margin: 0;
@@ -27,6 +31,9 @@ div.page-wrap.page-examples {
 
             h3 {
                 padding-top: 65px !important;
+                @media (max-width: 640px) {
+                    padding-top: 15px !important;
+                }
             }
         }
 
@@ -34,6 +41,12 @@ div.page-wrap.page-examples {
             width: 100%;
             max-width: 1500px;
             padding: 15px 15px 480px 335px;
+        }
+
+        @media (max-width: 640px) {
+            position: static !important;
+            padding: 0px 0px 15px 0 !important;
+            width: 100% !important;
         }
     }
 
@@ -66,6 +79,9 @@ div.page-wrap.page-examples {
                 color: #FFFFCC;
                 margin: 0 15px 0 0;
             }
+            @media (max-width: 640px) {
+                font-size: 12px;
+            }
         }
     }
 
@@ -86,11 +102,20 @@ div.page-wrap.page-examples {
             padding: 0 0 60px 0;
         }
 
+        @media (max-width: 640px) {
+            h2 { font-size: 18px; }
+            h3 { font-size: 16px; }
+        }
+
         p {
             font-size: 16px;
             line-height: 1.5;
             margin: 0;
             padding: 0 0 15px 0;
+        }
+
+        @media (max-width: 640px) {
+            p { font-size: 14px; }
         }
 
         div.react-codemirror2 {

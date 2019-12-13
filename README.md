@@ -1,6 +1,6 @@
-# Atomic Swaps Documentation
+# Deployment Guide Documentation
 
-This is the source code for the Atomic Swaps documentation. Use this as a reference.
+This is the source code for the Deployment Guide. Use this as a reference.
 
 ### Usage
 

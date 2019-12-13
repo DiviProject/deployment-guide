@@ -26,5 +26,12 @@ header {
             letter-spacing: 2px;
             margin: 0 0 2.5px 0;
         }
+
+        @media (max-width: 640px) {
+            img { height: 24px; }
+            h1 {
+                display: none;
+            }
+        }
     }
 }
